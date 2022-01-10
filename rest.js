@@ -1,6 +1,6 @@
 'use strict';
 
-const conn = require("./koneksi");
+const conn = require('./koneksi');
 
 exports.ok = function(values, res){
     var data = {
